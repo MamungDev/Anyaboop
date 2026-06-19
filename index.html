@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Francine</title>
+  <link rel="stylesheet" href="style.css?v=1.1" />
+
+  <!-- Bubble/cartoon font fallbacks; actual font loading depends on network availability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Fredoka:wght@400;500;600;700&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="top-nav">
+    <span class="nav-greeting">Thank you for being here!</span>
+    <button class="nav-hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="side-nav">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <div class="nav-inner">
+      <a class="nav-item" href="#page2">Illustration</a>
+      <a class="nav-item" href="#page3">Graphics Design</a>
+      <a class="nav-item" href="#brand-identity">Brand Identity</a>
+      <a class="nav-item" href="#page4">Photography</a>
+      <a class="nav-item" href="#about">About</a>
+      <a class="nav-item" href="#contacts">Contacts</a>
+    </div>
+    <aside id="side-nav" class="side-nav" aria-hidden="true">
+      <div class="side-nav-inner">
+        <button class="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="side-nav">
+          <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <nav class="side-links">
+          <a class="nav-item" href="#page2">Illustration</a>
+          <a class="nav-item" href="#page3">Graphics Design</a>
+          <a class="nav-item" href="#brand-identity">Brand Identity</a>
+          <a class="nav-item" href="#page4">Photography</a>
+          <a class="nav-item" href="#about">About</a>
+          <a class="nav-item" href="#contacts">Contacts</a>
+        </nav>
+      </div>
+    </aside>
+    <div class="side-overlay" tabindex="-1" aria-hidden="true"></div>
+  </nav>
+
+  <main>
+    <!-- HERO (Landing) -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="portrait-wrap">
+          <img class="portrait" src="assets\icon\profile.jpg" alt="Portrait" />
+        </div>
+
+        <div class="text-col">
+          <h1 class="main-heading" aria-label="Hello There! I'm Francine">
+            <span class="heading-line line-1">HELLO THERE!</span>
+            <span class="heading-line line-2">I'M FRANCINE</span>
+          </h1>
+          <div class="subtitle">Illustrator/Graphics Designer</div>
+
+          <div class="icons" aria-label="Software Icons">
+            <img class="icon" src="assets\icon\medibang.png" alt="MediBang"/>
+            <img class="icon" src="assets\icon\canva.png" alt="Canva" />
+            <img class="icon" src="assets\icon\photoshop.png" alt="Adobe Photoshop" />
+            <img class="icon" src="assets\icon\ibis.png" alt="IbisPaint X" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- INTERNAL PAGES INSIDE INDEX -->
+    <section id="page2" class="page">
+      <div class="page-section">
+        <div class="page-inner">
+          <h2 class="section-title">ILLUSTRATIONS</h2>
+          <div class="section-subtitle">Character Illustration</div>
+
+          <div class="photo-grid">
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\illustrations\sab.jpg"   alt="Character illustration using MediBang Paint" />
+                <div class="polaroid-caption">Original character illustration using MediBang Paint</div>
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\illustrations\pierre.jpg" alt="Character illustration using MediBang Paint" />
+                <div class="polaroid-caption">Original character sheet illustration using MediBang Paint</div>
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\illustrations\patlilypls.jpg" alt="Character illustration using MediBang Paint" />
+                <div class="polaroid-caption">Original character illustration using MediBang Paint</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="story-section">
+        <div class="page-inner story-inner">
+         <div class="section-subtitle">Story Board</div>
+          <div class="story-grid">
+            <div class="story-panel">
+              <div class="polaroid">
+                <img src="assets\storyboard\1.png" alt="Storyboard left panel" />
+                <div class="polaroid-caption">Storyboard 1st page</div>
+              </div>
+            </div>
+            <div class="story-mid">
+              <div class="story-text">Storyboard first concept for a soap commercial
+(School Project)</div>
+            </div>
+            <div class="story-panel">
+              <div class="polaroid">
+                <img src="assets\storyboard\2.png" alt="Storyboard right panel" />
+                <div class="polaroid-caption">Storyboard 2st page</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="story-section">
+        <div class="page-inner story-inner">
+          <div class="story-grid">
+            <div class="story-panel">
+              <div class="polaroid">
+                <img src="assets\storyboard\3.png" alt="Storyboard left panel" />
+                <div class="polaroid-caption">Storyboard 1st page</div>
+              </div>
+            </div>
+            <div class="story-mid">
+              <div class="story-text">Storyboard second concept for a soap commercial
+(School Project)</div>            </div>
+            <div class="story-panel">
+              <div class="polaroid">
+                <img src="assets\storyboard\4.png" alt="Storyboard right panel" />
+                <div class="polaroid-caption">Storyboard 2nd page</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page3" class="page">
+      <div class="page-section">
+        <div class="page-inner">
+          <h2 class="section-title">GRAPHIC DESIGN</h2>
+          <div class="section-subtitle">Design posters</div>
+
+          <div class="photo-grid">
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\graphicdes\VB.png" alt="Poster design using Canva & Photoshop" />
+                <div class="polaroid-caption">Digital poster for Village Bakers using Photoshop and Canva
+(School Project)</div>
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\graphicdes\BT.png" alt="Promotional graphic using Canva" />
+                <div class="polaroid-caption">Digital poster mockup using Canva (Personal Project)</div>
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\graphicdes\ADC.png" alt="Social media graphic using Canva" />
+                <div class="polaroid-caption">Digital poster mockup using Canva (Personal Project)</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-section" id="brand-logo">
+        <div class="page-inner">
+          <h2 class="section-title">BRAND IDENTITY</h2>
+          <div class="section-subtitle">Brand Logo</div>
+          <div class="photo-grid">
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\brandlogo\AClogo.png" alt="Logo created by MediBang paint" />
+                <div class="polaroid-caption">Brand logo design for a commissioned project</div>
+              </div>
+            </article>
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\brandlogo\ADClogo.png" alt="Logo created by MediBang paint" />
+                <div class="polaroid-caption">Brand logo design concept for a construction company
+(Personal Project)</div>
+              </div>
+            </article>
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\brandlogo\BTlogo.png" alt="Logo created by MediBang paint" />
+                <div class="polaroid-caption">Brand logo design concept for a coffee shop 
+(Personal Project)</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brand-identity" class="page">
+      <div class="page-section">
+        <div class="page-inner">
+          <div class="section-subtitle">Logo Design, Visual System & Brand Applications</div>
+          <div class="photo-grid">
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\brandIdentity\brewtheory.jpg" alt="Brand identity sample" />
+                <div class="polaroid-caption">Branding design sheet for a coffee shop (Personal Project)</div>
+              </div>
+            </article>
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\brandIdentity\ADC.jpg" alt="Brand identity sample" />
+                <div class="polaroid-caption">Branding design sheet for a construction company
+(Personal Project)</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page4" class="page">
+      <div class="page-section">
+        <div class="page-inner">
+          <h2 class="section-title">PHOTOGRAPHY</h2>
+          <div class="section-subtitle">Basic Photography</div>
+
+          <div class="photo-grid">
+            <article class="polaroid-card">
+              <div class="polaroid">
+                <img src="assets\photog\motor.JPG"/>
+                <div class="polaroid-caption">Insert Shot</div>
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+                 <img src="assets\photog\bee.JPG"/>
+                <div class="polaroid-caption">Macro Shot</div>
+
+              </div>
+            </article>
+
+            <article class="polaroid-card">
+              <div class="polaroid">
+               <img src="assets\photog\prenup.png"/>
+                <div class="polaroid-caption">Candid Shot</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="page photo-cleanup-section">
+      <div class="page-section">
+        <div class="page-inner">
+          <div class="section-subtitle">Photographic Cleanup</div>
+
+          <div class="cleanup-container" aria-label="Photographic cleanup examples combined">
+            <div class="cleanup-row">
+              <div class="cleanup-side">
+                <article class="polaroid-card">
+                  <div class="polaroid">
+                    <img src="assets\photogcleanup\b4.JPG" alt="Before - cleanup example 1" />
+                    <div class="polaroid-caption">Before</div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="cleanup-center">
+                <div class="cleanup-note">Managed to remove skin blemishes and cleaned up fly away hairs</div>
+              </div>
+
+              <div class="cleanup-side">
+                <article class="polaroid-card">
+                  <div class="polaroid">
+                    <img src="assets\photogcleanup\aftr.png" alt="After - cleanup example 1" />
+                    <div class="polaroid-caption">After</div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="cleanup-row">
+              <div class="cleanup-side">
+                <article class="polaroid-card">
+                  <div class="polaroid">
+                    <img src="assets\photogcleanup\befour.JPG" alt="Before - cleanup example 2" />
+                    <div class="polaroid-caption">Before</div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="cleanup-center">
+                <div class="cleanup-note">Managed to remove skin blemishes and cleaned up fly away hairs</div>
+              </div>
+
+              <div class="cleanup-side">
+                <article class="polaroid-card">
+                  <div class="polaroid">
+                    <img src="assets\photogcleanup\after.png" alt="After - cleanup example 2" />
+                    <div class="polaroid-caption">After</div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + CONTACTS (keeps the existing theme and palette) -->
+    <section id="about-contacts" class="page about-contacts-section">
+      <div class="page-section">
+        <div class="page-inner about-contacts-inner">
+          <div class="two-col">
+            <div class="about-col" id="about">
+              <div class="about-banner">
+                <h2 class="about-title">ABOUT ME!</h2>
+                <p class="about-intro">Multimedia Arts student with an interest in illustration, logo designing, graphics design, and photographic cleanup. Experienced in creating character and logo illustrations using MediBang Paint, using Canva and Photoshop for graphics design and photographic cleanup. Seeking an internship opportunity to further develop technical and creative skills in a professional production environment.</p>
+
+                <div class="about-details">
+                  <div class="detail-item">
+                    <div class="detail-title">Focus</div>
+                    <div class="detail-body">Illustrations, logo design, and photographic cleanup.</div>
+                  </div>
+
+                  <div class="detail-item">
+                    <div class="detail-title">Strengths</div>
+                    <div class="detail-body">Character concept development, translating ideas into visuals, and attention to details.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <aside class="contacts-col" id="contacts">
+              <h2 class="contacts-title">CONTACTS</h2>
+
+              <div class="contact-grid" role="list">
+                <a class="contact-item" href="https://web.facebook.com/francine.f.adan" target="_blank" rel="noopener noreferrer" role="listitem">
+                  <div class="contact-circle">
+                    <img class="contact-icon" src="assets\icon\facebook.jpg" alt="Facebook" />
+                  </div>
+                  <div class="contact-label">Facebook</div>
+                  <div class="contact-sub">Francine F.Adan</div>
+                </a>
+
+                <a class="contact-item" href="https://www.instagram.com/_kazushi01/" target="_blank" rel="noopener noreferrer" role="listitem">
+                  <div class="contact-circle">
+                    <img class="contact-icon" src="assets\icon\insta.jpg" alt="Instagram" />
+                  </div>
+                  <div class="contact-label">Instagram</div>
+                  <div class="contact-sub">/_kazushi01</div>
+                </a>
+
+                <a class="contact-item" href="mailto:francineadan17@gmail.com" role="listitem">
+                  <div class="contact-circle">
+                    <img class="contact-icon" src="assets\icon\mail.jpg" alt="Email" />
+                  </div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-sub">francineadan17@gmail.com</div>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-text">thnx pu for viewing my portfolio pu</span>
+    </div>
+  </footer>
+</body>
+</html>
+
