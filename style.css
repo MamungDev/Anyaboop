@@ -591,6 +591,8 @@ body{
 .side-nav.open{ transform:translateX(0); }
 .side-overlay.show{ display:block; }
 
-/* Remove layered shadow under hero heading */
-.hero .main-heading .heading-line{ text-shadow: none !important; }
+/* Subtle lighter shadow for the hero heading */
+.hero .main-heading .heading-line{
+  text-shadow: 6px 6px 0 rgba(184,75,82,0.28) !important;
+}
 
