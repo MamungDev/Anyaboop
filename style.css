@@ -591,3 +591,6 @@ body{
 .side-nav.open{ transform:translateX(0); }
 .side-overlay.show{ display:block; }
 
+/* Remove layered shadow under hero heading */
+.hero .main-heading .heading-line{ text-shadow: none !important; }
+
